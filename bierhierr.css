@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin:0px;
+    padding:0px ;
+    font-family: 'Raleway', sans-serif;
+}
+
+div#wrapper {
+    background-color:rgb(255, 140, 102);
+}
+
+header {
+    background-color:#84fb12 ;
+    text-align:center ;
+}
+
+img#logo {
+    width: 320px; ;
+}
+
+img {
+    width:100%;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+li {
+    background-color:#84fb12 ;
+    padding: 10px;
+    padding-left:20px ;
+    border-top:1px solid white ;
+}
+
+li a {
+    color:white;
+    text-decoration:none ;
+    font-weight: 600;
+}
+
+@media all and (min-width:550px) {
+    ul {
+        background-color:#84fb12 ;
+        border-top: 1px solid white;
+    }
+    li {
+        display: inline-block;
+        border:none;
+    }
+
+}
+
+h3 {
+    color:#162a03 ;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+img#chef{
+    padding-top: 20px;
+}
+
+img#logo {
+    width:320px ;
+}
+/* --- sections en footers --- */
+
+section,footer {
+    padding:20px;
+}
+
+@media all and (min-width:550px) {
+    section#recepten {
+        width:40%;
+        float: left;
+    }
+    section#voorgerecht {
+        width:60%;
+        float:right;
+    }
+}
+
+
+@media all and (min-width:980px) {
+    section#recepten {
+        width:30%;
+        float: left;
+    }
+    section#voorgerecht {
+        width:70%;
+        float:right;
+    }
+    article {
+        display:inline-block;
+        width:48%;
+        margin-right:20px ;
+
+    }
+    article:nth-child(even) {
+        margin-right: 0px;
+    }
+
+}
+
+@media all and (min-width:1200px){
+    div#wrapper{
+        width: 1200px;
+        margin: auto;
+    }
+
+}
+
+
+footer {
+    clear: both;
+    background-color:#84fb12;
+    color:white;
+
+}
+
+footer h3 {
+    color:white;
+}

@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color:#84fb12 ;
+    text-align:center ;
+    font-family: 'Raleway', sans-serif;
+}
+li {
+    background-color:#84fb12 ;
+    padding: 10px;
+    padding-left:20px ;
+    border-top:1px solid white ;
+}
+li a {
+    color:white;
+    text-decoration:none ;
+    font-weight: 600;
+}
+@media all and (min-width:550px) {
+    ul {
+        background-color:#84fb12 ;
+        border-top: 1px solid white;
+    }
+    li {
+        display: inline-block;
+        border:none;
+    }
+
+}
+
+footer {
+    clear: both;
+    background-color:rgb(255, 140, 102);
+    color:white;
+    height: 75px;
+
+}
